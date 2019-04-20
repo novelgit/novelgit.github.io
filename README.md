@@ -1,1 +1,0 @@
-# novelpaints.github.io
