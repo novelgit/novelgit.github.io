@@ -1,121 +1,813 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-	<title>Novel Paints Ltd | Maintenance</title>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-<!--===============================================================================================-->	
-	<link rel="icon" type="image/png" href="images/icons/favicon.ico"/>
-<!--===============================================================================================-->
-	<link rel="stylesheet" type="text/css" href="vendor/bootstrap/css/bootstrap.min.css">
-<!--===============================================================================================-->
-	<link rel="stylesheet" type="text/css" href="fonts/font-awesome-4.7.0/css/font-awesome.min.css">
-<!--===============================================================================================-->
-	<link rel="stylesheet" type="text/css" href="vendor/animate/animate.css">
-<!--===============================================================================================-->
-	<link rel="stylesheet" type="text/css" href="vendor/select2/select2.min.css">
-<!--===============================================================================================-->
-	<link rel="stylesheet" type="text/css" href="css/util.css">
-	<link rel="stylesheet" type="text/css" href="css/main.css">
-<!--===============================================================================================-->
-</head>
-<body>
-	
-	<!--  -->
-	<div class="simpleslide100">
-		<div class="simpleslide100-item bg-img1" style="background-image: url('images/bg01.jpg');"></div>
-		<div class="simpleslide100-item bg-img1" style="background-image: url('images/bg02.jpg');"></div>
-		<div class="simpleslide100-item bg-img1" style="background-image: url('images/bg03.jpg');"></div>
-	</div>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">    
+    <title>Novel Paints Ltd | Home</title>
+    
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
 
-	<div class="size1 overlay1">
-		<!--  -->
-		<div class="size1 flex-col-c-m p-l-15 p-r-15 p-t-50 p-b-50">
-			<h3 class="l1-txt1 txt-center p-b-25">
-				Coming Soon
-			</h3>
+    <!-- Font awesome -->
+    <link href="css/font-awesome.css" rel="stylesheet">
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.css" rel="stylesheet">   
+    <!-- slick slider -->
+    <link rel="stylesheet" type="text/css" href="css/slick.css">
+    <!-- price picker slider -->
+    <link rel="stylesheet" type="text/css" href="css/nouislider.css">
+    <!-- Fancybox slider -->
+    <link rel="stylesheet" href="css/jquery.fancybox.css" type="text/css" media="screen" /> 
+    <!-- Theme color -->
+    <link id="switcher" href="css/theme-color/default-theme.css" rel="stylesheet">     
 
-			<p class="m2-txt1 txt-center p-b-48">
-				Our website is under construction, follow us for update now!
-			</p>
+    <!-- Main style sheet -->
+    <link href="css/style.css" rel="stylesheet">    
 
-			<div class="flex-w flex-c-m cd100 p-b-33">
-				<div class="flex-col-c-m size2 bor1 m-l-15 m-r-15 m-b-20">
-					<span class="l2-txt1 p-b-9 days">35</span>
-					<span class="s2-txt1">Days</span>
-				</div>
+   
+    <!-- Google Font -->
+    <link href='https://fonts.googleapis.com/css?family=Vollkorn' rel='stylesheet' type='text/css'>    
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+    
 
-				<div class="flex-col-c-m size2 bor1 m-l-15 m-r-15 m-b-20">
-					<span class="l2-txt1 p-b-9 hours">17</span>
-					<span class="s2-txt1">Hours</span>
-				</div>
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
 
-				<div class="flex-col-c-m size2 bor1 m-l-15 m-r-15 m-b-20">
-					<span class="l2-txt1 p-b-9 minutes">50</span>
-					<span class="s2-txt1">Minutes</span>
-				</div>
+  </head>
+  <body class="aa-price-range">  
+  <!-- Pre Loader -->
+  <div id="aa-preloader-area">
+    <!-- <div class="item item-1"></div>
+    <div class="item item-2"></div>
+    <div class="item item-3"></div>
+    <div class="item item-4"></div> -->
+    <div class="pulse"></div>
+  </div>
+  <!-- SCROLL TOP BUTTON -->
+    <a class="scrollToTop" href="#"><i class="fa fa-angle-double-up"></i></a>
+  <!-- END SCROLL TOP BUTTON -->
 
-				<div class="flex-col-c-m size2 bor1 m-l-15 m-r-15 m-b-20">
-					<span class="l2-txt1 p-b-9 seconds">39</span>
-					<span class="s2-txt1">Seconds</span>
-				</div>
-			</div>
+  <!-- Start header section -->
+  <header id="aa-header">  
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="aa-header-area">
+            <div class="row">
+              <div class="col-md-6 col-sm-6 col-xs-6">
+                <div class="aa-header-left">
+                  <div class="aa-telephone-no">
+                    <span class="fa fa-phone"></span>
+                    0708 114 276 / 0782 114 276
+                  </div>
+                  <div class="aa-email hidden-xs">
+                    <span class="fa fa-envelope-o"></span> customerservice@novelpaints.com
+                  </div>
+                </div>              
+              </div>
+              <div class="col-md-6 col-sm-6 col-xs-6">
+                <div class="aa-header-right">
+                  <a href="https://www.facebook.com/novelpaintsKe" class="aa-register">Message us?</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+  <!-- End header section -->
 
-			<form class="w-full flex-w flex-c-m validate-form">
+  <!-- Start menu section -->
+  <section id="aa-menu-area">
+    <nav class="navbar navbar-default main-navbar" role="navigation">  
+      <div class="container">
+        <div class="navbar-header">
+          <!-- FOR MOBILE VIEW COLLAPSED BUTTON -->
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <!-- LOGO -->                                               
+          <!-- Text based logo -->
+          <!-- <a class="navbar-brand aa-logo" href="index.html"> Novel <span>Paints</span></a> -->
+           <!-- Image based logo -->
+           <a class="navbar-brand aa-logo-img" href="index.html"><img src="img/logo.png" alt="logo"></a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul id="top-menu" class="nav navbar-nav navbar-right aa-main-nav">
+            <li class="active"><a href="index.html">HOME</a></li>
+            <li><a href="products.html">PRODUCTS</a></li>
+             <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="color_palette.html">FIND A COLOR <span class="caret"></span></a>
+              <ul class="dropdown-menu" role="menu">                
+                <li><a href="color_palette.html">COLOR PALETTE</a></li>
+                <!--<li><a href="color_chart.html">COLOR CHART</a></li>-->                                            
+              </ul>
+            </li>
+            <!-- <li><a href="our_works.html">OUR WORKS</a></li> -->
+            <li><a href="our_outlets.html">WHERE TO BUY?</a></li> 
+            <li><a href="contact.html">CONTACT US</a></li>
+          </ul>                            
+        </div><!--/.nav-collapse -->       
+      </div>          
+    </nav> 
+  </section>
+  <!-- End menu section -->
 
-				<div class="wrap-input100 validate-input where1" data-validate = "Valid email is required: ex@abc.xyz">
-					<input class="input100 placeholder0 s2-txt2" type="text" name="email" placeholder="Enter Email Address">
-					<span class="focus-input100"></span>
-				</div>
-				
-				
-				<button class="flex-c-m size3 s2-txt3 how-btn1 trans-04 where1">
-					Subscribe
-				</button>
-			</form>
-		</div>
-	</div>
+  <!-- Start slider  -->
+  <section id="aa-slider">
+    <div class="aa-slider-area"> 
+      <!-- Top slider -->
+      <div class="aa-top-slider">
+        <!-- Top slider single slide -->
+        <div class="aa-top-slider-single">
+          <img src="img/slider/1.png" alt="img">
+          <!-- Top slider content -->
+          
+          <!-- / Top slider content -->
+        </div>
+        <!-- / Top slider single slide -->
+        <!-- Top slider single slide -->
+        <div class="aa-top-slider-single">
+          <img src="img/slider/2.png" alt="img">
+        
+          <!-- Top slider content -->
+               
+        </div>
+        <!-- / Top slider single slide -->
+      </div>
+    </div>
+  </section>
+  <!-- End slider  -->
 
 
 
-	
+  <!-- About us -->
+  <section id="aa-about-us">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="aa-about-us-area">
+            <div class="row">
+              <div class="col-md-5">
+                <div class="aa-about-us-left">
+                  <img src="img/about-us.jpg" alt="image">
+                </div>
+              </div>
+              <div class="col-md-7">
+                <div class="aa-about-us-right">
+                  <div class="aa-title">
+                    <h2>About Us</h2>
+                    <span></span>
+                  </div>
+                  
+                  <div class="well well-lg">
+                  <p>Novel Paints Ltd is a paint manufacturing company, specializing in decorative paint, it was established in 2001 by the late Khalif Maalim, who was a prominent expert in the industry. Having had the opportunity to work for over 30 years with other high profile paint companies as the Technical director, he developed great interest and invaluable knowledge in the line of paint manufacturing. Novel paints was borne out of this passion. We manufacture a wide range of products including:
+</p>  		                 
+                  <ul>
+                    <li>Decorative paints</li>
+                    <li>Automotive finishes</li>
+                    <li>Epoxy paints</li>                    
+                    <li>Varnishes</li>
+                    <li>Primers</li>
+                    <li>Thinners</li>
+                    <li>Adhesives</li>
+                  </ul>
+                  </br>
+                  <p>Over the years Novel Paints has had an upward dynamic in both product development and market share.We are privileged to serve industry leaders such as Emkay Builders, Pyramid Builders, Golbo Construction Ltd, Decoprime Ltd, Eastline Construction Ltd, Mega Transporters as well as medium sized contractors and distributers like Gurumessa Stores Kenya, Sky West Aviation, Commercial Motor spares, renown branding & decor firms such as Elevate Media, Going Platinum among others.</p>
 
-<!--===============================================================================================-->	
-	<script src="vendor/jquery/jquery-3.2.1.min.js"></script>
-<!--===============================================================================================-->
-	<script src="vendor/bootstrap/js/popper.js"></script>
-	<script src="vendor/bootstrap/js/bootstrap.min.js"></script>
-<!--===============================================================================================-->
-	<script src="vendor/select2/select2.min.js"></script>
-<!--===============================================================================================-->
-	<script src="vendor/countdowntime/moment.min.js"></script>
-	<script src="vendor/countdowntime/moment-timezone.min.js"></script>
-	<script src="vendor/countdowntime/moment-timezone-with-data.min.js"></script>
-	<script src="vendor/countdowntime/countdowntime.js"></script>
-	<script>
-		$('.cd100').countdown100({
-			/*Set Endtime here*/
-			/*Endtime must be > current time*/
-			endtimeYear: 0,
-			endtimeMonth: 0,
-			endtimeDate: 14,
-			endtimeHours: 18,
-			endtimeMinutes: 0,
-			endtimeSeconds: 0,
-			timeZone: "" 
-			// ex:  timeZone: "America/New_York"
-			//go to " http://momentjs.com/timezone/ " to get timezone
-		});
-	</script>
-<!--===============================================================================================-->
-	<script src="vendor/tilt/tilt.jquery.min.js"></script>
-	<script >
-		$('.js-tilt').tilt({
-			scale: 1.1
-		})
-	</script>
-<!--===============================================================================================-->
-	<script src="js/main.js"></script>
+<p>
+We are committed to providing the highest level of quality, through efficiency and continuous product and service improvement. We are confident that staying true to these commitments will create value to all our customers. Hopefully, paint a brighter future for all our stakeholders.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- / About us -->
 
-</body>
+  <!-- Our products -->
+  <section id="aa-latest-property">
+    <div class="container">
+      <div class="aa-latest-property-area">
+        <div class="aa-title">
+          <h2>Our Products</h2>
+          <span></span>
+          <p>Our paints are based on new formulations researched and improved by talented chemists and scientists here at Novel Paints.</p>         
+        </div>
+        <div class="aa-latest-properties-content">
+          <div class="row">
+            <div class="col-md-4">
+              <article class="aa-properties-item">
+                <a href="products.html" class="aa-properties-item-img">
+                  <img src="img/item/1.jpg" alt="img">
+                </a>
+                <div class="aa-properties-item-content">
+                  <div class="aa-properties-info">
+                    <span>Available sizes:</span>
+                    <span>20 litres</span>
+                    <span>4 litres</span>
+                    <span>1 litre</span>
+                  </div>
+                  <div class="aa-properties-about">
+                    <h3><a href="products.html">Silk Vinyl Emulsion</a></h3>
+                    <p>A copolymer based emulsion paint and lightfast pigments, it has a silky appearance and has exceptional toughness and washable.</p>                      
+                  </div>
+                  <div class="aa-properties-detial">
+                     <!--<span class="aa-price">
+                      $35000
+                    </span>-->
+                   <!-- <a href="#" class="aa-secondary-btn">View Details</a> -->
+                  </div>
+                </div>
+              </article>
+            </div>
+            <div class="col-md-4">
+              <article class="aa-properties-item">
+                <a href="products.html" class="aa-properties-item-img">
+                  <img src="img/item/2.jpg" alt="img">
+                </a>
+                <div class="aa-properties-item-content">
+                  <div class="aa-properties-info">
+                    <span>Available sizes:</span>
+                    <span>20 litres</span>
+                    <span>4 litres</span>
+                    <span>1 litre</span>
+                  </div>
+                  <div class="aa-properties-about">
+                    <h3><a href="products.html">Vinyl Matt Emulsion</a></h3>
+                    <p>Novel vinyl matt formulated to give excellent opacity & durability when used on exterior & interior surfaces.</p>                      
+                  </div>
+                  <div class="aa-properties-detial">
+                    <!--<span class="aa-price">
+                      $11000
+                    </span>-->
+                   <!-- <a href="#" class="aa-secondary-btn">View Details</a> -->
+                  </div>
+                </div>
+              </article>
+            </div>
+            <div class="col-md-4">
+              <article class="aa-properties-item">
+                <a href="products.html" class="aa-properties-item-img">
+                  <img src="img/item/3.jpg" alt="img">
+                </a>
+                <div class="aa-properties-item-content">
+                  <div class="aa-properties-info">
+                    <span>Available sizes:</span>
+                    <span>20 litres</span>
+                    <span>4 litres</span>
+                    <span>1 litre</span>
+                  </div>
+                  <div class="aa-properties-about">
+                    <h3><a href="products.html">Supermatt Emulsion</a></h3>
+                    <p>A superior quality emulsion paint formulated to give excellent opacity & durability when used on exterior and interior surfaces.</p>                      
+                  </div>
+                  <div class="aa-properties-detial">
+                    <!--<span class="aa-price">
+                      $15000
+                    </span>-->
+                   <!-- <a href="#" class="aa-secondary-btn">View Details</a> -->
+                  </div>
+                </div>
+              </article>
+            </div>
+            <div class="col-md-4">
+              <article class="aa-properties-item">
+                <a href="products.html" class="aa-properties-item-img">
+                  <img src="img/item/4.jpg" alt="img">
+                </a>
+                <div class="aa-properties-item-content">
+                  <div class="aa-properties-info">
+                    <span>Available sizes:</span>
+                    <span>20 litres</span>
+                    <span>4 litres</span>
+                    <span>1 litre</span>
+                  </div>
+                  <div class="aa-properties-about">
+                    <h3><a href="products.html">Super Gloss</a></h3>
+                    <p>manufactured from high quality light fast pigments dispersed in an alkyd medium.it is formulated to provide maximum durability with high gloss level and excellent gloss retention.</p>                      
+                  </div>
+                  <div class="aa-properties-detial">
+                    <!--<span class="aa-price">
+                      $35000
+                    </span>-->
+                   <!-- <a href="#" class="aa-secondary-btn">View Details</a> -->
+                  </div>
+                </div>
+              </article>
+            </div>
+            <div class="col-md-4">
+              <article class="aa-properties-item">
+                <a href="products.html" class="aa-properties-item-img">
+                  <img src="img/item/5.jpg" alt="img">
+                </a>                
+                <div class="aa-properties-item-content">
+                  <div class="aa-properties-info">
+                    <span>Available sizes:</span>
+                    <span>20 litres</span>
+                    <span>4 litres</span>
+                    <span>1 litre</span>
+                  </div>
+                  <div class="aa-properties-about">
+                    <h3><a href="products.html">Polyurethane Varnish</a></h3>
+                    <p>A hard wearing Alkyd varnish stain ,producing a glossy finish suitable for new and previously varnished timber surfaces.
+                    </br> </br>
+                    </p>                      
+                  </div>
+                  <div class="aa-properties-detial">
+                    <!--<span class="aa-price">
+                      $11000
+                    </span>-->
+                   <!-- <a href="#" class="aa-secondary-btn">View Details</a> -->
+                  </div>
+                </div>
+              </article>
+            </div>
+            <div class="col-md-4">
+              <article class="aa-properties-item">
+                <a href="products.html" class="aa-properties-item-img">
+                  <img src="img/item/6.jpg" alt="img">
+                </a>
+                <div class="aa-properties-item-content">
+                  <div class="aa-properties-info">
+                    <span>Available sizes:</span>
+                    <span>20 litres</span>
+                    <span>4 litres</span>
+                    <span>1 litre</span>
+                  </div>
+                  <div class="aa-properties-about">
+                    <h3><a href="products.html">Novacryl 2K Acrylic</a></h3>
+                    <p>Novacryl 2K Acrylic is an air drying, 2-component Acrylic offering excellent gloss retention. It is also a low-bake system that can be force dried to reduce processing times.</p>                      
+                  </div>
+                  <div class="aa-properties-detial">
+                    <!--<span class="aa-price">
+                      $15000
+                    </span>-->
+                   <!-- <a href="#" class="aa-secondary-btn">View Details</a> -->
+                  </div>
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- / Our products -->
+
+  <!-- Service section -->
+  <section id="aa-service">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="aa-service-area">
+            <div class="aa-title">
+              <h2>Our Service</h2>
+              <span></span>
+              <p>We endeavour to add value to our clients </p>
+            </div>
+            <!-- service content -->
+            <div class="aa-service-content">
+              <div class="row">
+                <div class="col-md-4">
+                  <div class="aa-single-service">
+                    <div class="aa-service-icon">
+                      <span class="fa fa-truck"></span>
+                    </div>
+                    <div class="aa-single-service-content">
+                      <h4><a href="#">Delivery</a></h4>
+                      <p>You make bulky orders and never have to worry about how they'll get to you, beacuse we planned the process for you. </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="aa-single-service">
+                    <div class="aa-service-icon">
+                      <span class="fa fa-paint-brush"></span>
+                    </div>
+                    <div class="aa-single-service-content">
+                      <h4><a href="#">Supply & Apply</a></h4>
+                      <p>You might as well leave your entire project in the hands of the experts and be assured of top notch results.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="aa-single-service">
+                    <div class="aa-service-icon">
+                      <span class="fa fa-info-circle"></span>
+                    </div>
+                    <div class="aa-single-service-content">
+                      <h4><a href="#">Color & Painting Advice</a></h4>
+                      <p>We understand that colors do more than just decorate walls and surfaces and we don't hesitate to guide you.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- / Service section -->
+
+  <!-- Promo Banner Section -->
+  <!--<section id="aa-promo-banner">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="aa-promo-banner-area">
+            <h3>Get creative with colors</h3>
+            <p style="font-size:28px">Knowing the effects colors can have is an incredibly valuable expertise we have mastered and offer to our clients.</p>
+            <p style="font-size:20px"> Need some guidance? No problem, just talk to us. Peruse our color chart and get inspired for your next project</p>
+            <a href="color_palette.html" class="aa-view-btn">View Details</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section> -->
+  <!-- / Promo Banner Section -->
+
+  <!-- Our Agent Section-->
+  <!--<section id="aa-agents">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="aa-agents-area">
+            <div class="aa-title">
+              <h2>Our Team</h2>
+              <span></span>
+              <p>A group of dedicated people working together to discover and deliver new developments in the paints production industry</p>
+            </div>
+            <!-- agents content -->
+            <div class="aa-agents-content">
+              <ul class="aa-agents-slider">
+                <li>
+                  <div class="aa-single-agents">
+                    <div class="aa-agents-img">
+                      <img src="img/agents/staff-1.png" alt="staff member image">
+                    </div>
+                    <div class="aa-agetns-info">
+                      <h4><a href="#">Masud Maalim</a></h4>
+                      <span>Board Of Directors</span>
+                      <div class="aa-agent-social">
+                        <!--<a href="#"><i class="fa fa-facebook"></i></a>
+                        <a href="#"><i class="fa fa-twitter"></i></a>
+                        <a href="#"><i class="fa fa-linkedin"></i></a>
+                        <a href="#"><i class="fa fa-google-plus"></i></a>-->
+                      </div>
+                    </div>
+                  </div>
+                </li>
+                <li>
+                  <div class="aa-single-agents">
+                    <div class="aa-agents-img">
+                      <img src="img/agents/staff-2.png" alt="agent member image">
+                    </div>
+                    <div class="aa-agetns-info">
+                      <h4><a href="#">Lillian Nafula</a></h4>
+                      <span>Customer Service</span>
+                      <div class="aa-agent-social">
+                        <!--<a href="#"><i class="fa fa-facebook"></i></a>
+                        <a href="#"><i class="fa fa-twitter"></i></a>
+                        <a href="#"><i class="fa fa-linkedin"></i></a>
+                        <a href="#"><i class="fa fa-google-plus"></i></a>-->
+                      </div>
+                    </div>
+                  </div>
+                </li>
+                <li>
+                  <div class="aa-single-agents">
+                    <div class="aa-agents-img">
+                      <img src="img/agents/staff-3.png" alt="agent member image">
+                    </div>
+                    <div class="aa-agetns-info">
+                      <h4><a href="#">Zulekha Khalif</a></h4>
+                      <span>Accounts</span>
+                      <div class="aa-agent-social">
+                        <!--<a href="#"><i class="fa fa-facebook"></i></a>
+                        <a href="#"><i class="fa fa-twitter"></i></a>
+                        <a href="#"><i class="fa fa-linkedin"></i></a>
+                        <a href="#"><i class="fa fa-google-plus"></i></a>-->
+                      </div>
+                    </div>
+                  </div>
+                </li>
+                <li>
+                  <div class="aa-single-agents">
+                    <div class="aa-agents-img">
+                      <img src="img/agents/staff-4.png" alt="agent member image">
+                    </div>
+                    <div class="aa-agetns-info">
+                      <h4><a href="#">Irene</a></h4>
+                      <span>Sales & Marketing</span>
+                      <div class="aa-agent-social">
+                        <!--<a href="#"><i class="fa fa-facebook"></i></a>
+                        <a href="#"><i class="fa fa-twitter"></i></a>
+                        <a href="#"><i class="fa fa-linkedin"></i></a>
+                        <a href="#"><i class="fa fa-google-plus"></i></a>-->
+                      </div>
+                    </div>
+                  </div>
+                </li>
+                 <li>
+                  <div class="aa-single-agents">
+                    <div class="aa-agents-img">
+                      <img src="img/agents/staff-5.png" alt="agent member image">
+                    </div>
+                    <div class="aa-agetns-info">
+                      <h4><a href="#">Denis Kobare</a></h4>
+                      <span>IT</span>
+                      <div class="aa-agent-social">
+                        <!--<a href="#"><i class="fa fa-facebook"></i></a>
+                        <a href="#"><i class="fa fa-twitter"></i></a>
+                        <a href="#"><i class="fa fa-linkedin"></i></a>
+                        <a href="#"><i class="fa fa-google-plus"></i></a>-->
+                      </div>
+                    </div>
+                  </div>
+                </li>
+                <li>
+                  <div class="aa-single-agents">
+                    <div class="aa-agents-img">
+                      <img src="img/agents/staff-6.png" alt="agent member image">
+                    </div>
+                    <div class="aa-agetns-info">
+                      <h4><a href="#">Anne Nderu</a></h4>
+                      <span>R&D</span>
+                      <div class="aa-agent-social">
+                        <!--<a href="#"><i class="fa fa-facebook"></i></a>
+                        <a href="#"><i class="fa fa-twitter"></i></a>
+                        <a href="#"><i class="fa fa-linkedin"></i></a>
+                        <a href="#"><i class="fa fa-google-plus"></i></a>-->
+                      </div>
+                    </div>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section> -->
+  <!-- / Our Agent Section-->
+
+  <!-- Client Testimonial -->
+  <section id="aa-client-testimonial">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="aa-client-testimonial-area">
+            <div class="aa-title">
+              <h2>Our Clients</h2>
+              <span></span>
+              <p>Our client base includes home owners, motor vehicle, real estate and construction companies</p>
+            </div>
+            <!-- testimonial content -->
+            <div class="aa-testimonial-content">
+              <!-- testimonial slider -->
+              <!-- <ul class="aa-testimonial-slider">
+                <li>
+                  <div class="aa-testimonial-single">
+                    <div class="aa-testimonial-img">
+                      <img src="img/testimonial-1.png" alt="testimonial img">
+                    </div>
+                    <div class="aa-testimonial-info">
+                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate consequuntur ducimus cumque iure modi nesciunt recusandae eligendi vitae voluptatibus, voluptatum tempore, ipsum nisi perspiciatis. Rerum nesciunt fuga ab natus, dolorem?</p>
+                    </div>
+                    <div class="aa-testimonial-bio">
+                      <p>David Muller</p>
+                      <span>Web Designer</span>
+                    </div>
+                  </div>
+                </li>
+                 <li>
+                  <div class="aa-testimonial-single">
+                    <div class="aa-testimonial-img">
+                      <img src="img/testimonial-3.png" alt="testimonial img">
+                    </div>
+                    <div class="aa-testimonial-info">
+                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate consequuntur ducimus cumque iure modi nesciunt recusandae eligendi vitae voluptatibus, voluptatum tempore, ipsum nisi perspiciatis. Rerum nesciunt fuga ab natus, dolorem?</p>
+                    </div>
+                    <div class="aa-testimonial-bio">
+                      <p>David Muller</p>
+                      <span>Web Designer</span>
+                    </div>
+                  </div>
+                </li>
+                 <li>
+                  <div class="aa-testimonial-single">
+                    <div class="aa-testimonial-img">
+                      <img src="img/testimonial-2.png" alt="testimonial img">
+                    </div>
+                    <div class="aa-testimonial-info">
+                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate consequuntur ducimus cumque iure modi nesciunt recusandae eligendi vitae voluptatibus, voluptatum tempore, ipsum nisi perspiciatis. Rerum nesciunt fuga ab natus, dolorem?</p>
+                    </div>
+                    <div class="aa-testimonial-bio">
+                      <p>David Muller</p>
+                      <span>Web Designer</span>
+                    </div>
+                  </div>
+                </li>
+              </ul>
+            </div>-->
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Client Testimonial -->
+
+  <!-- Client brand -->
+  <section id="aa-client-brand">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="aa-client-brand-area">
+            <ul class="aa-client-brand-slider">
+              <li>
+                <div class="aa-client-single-brand">
+                  <img src="img/client-brand-1.png" alt="brand image">
+                </div>
+              </li>
+              <li>
+                <div class="aa-client-single-brand">
+                  <img src="img/client-brand-2.png" alt="brand image">
+                </div>
+              </li>
+              <li>
+                <div class="aa-client-single-brand">
+                  <img src="img/client-brand-3.png" alt="brand image">
+                </div>
+              </li>
+              <li>
+                <div class="aa-client-single-brand">
+                  <img src="img/client-brand-4.png" alt="brand image">
+                </div>
+              </li>
+              <li>
+                <div class="aa-client-single-brand">
+                  <img src="img/client-brand-5.png" alt="brand image">
+                </div>
+              </li>
+              <li>
+                <div class="aa-client-single-brand">
+                  <img src="img/client-brand-6.png" alt="brand image">
+                </div>
+              </li>
+              <li>
+                <div class="aa-client-single-brand">
+                  <img src="img/client-brand-7.png" alt="brand image">
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- / Client brand -->
+
+  <!-- Latest blog -->
+  <section id="aa-latest-blog">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="aa-latest-blog-area">
+            <div class="aa-title">
+              <h2>Recent Projects</h2>
+              <span></span>
+              <p>We partner with Tulip Interior Designs who apply our paints for our clients</p>
+            </div>
+            <div class="aa-latest-blog-content">
+              <div class="row">
+                <!-- start single blog -->
+                <div class="col-md-4">
+                  <article class="aa-blog-single">
+                    <figure class="aa-blog-img">
+                      <a href="#"><img src="img/project-img-1.jpg" alt="img"></a>
+                      <span class="aa-date-tag">15 April, 19</span>
+                    </figure>
+                    <div class="aa-blog-single-content">
+                      <h3><a href="#">Lavingtone</a></h3>
+                      <p>  </p>
+                      <!--<div class="aa-blog-single-bottom">
+                        <a href="#" class="aa-blog-author"><i class="fa fa-user"></i> Admin</a>
+                        <a href="#" class="aa-blog-comments"><i class="fa fa-comment-o"></i>6</a>
+                      </div> -->
+                    </div>
+                   
+                  </article>
+                </div>
+                <!-- start single blog -->
+                <div class="col-md-4">
+                  <article class="aa-blog-single">
+                    <figure class="aa-blog-img">
+                      <a href="#"><img src="img/project-img-2.jpg" alt="img"></a>
+                      <span class="aa-date-tag">15 April, 19</span>
+                    </figure>
+                    <div class="aa-blog-single-content">
+                      <h3><a href="#">Mabruk Apartments</a></h3>
+                      <p>  </p>
+                      <!--<div class="aa-blog-single-bottom">
+                        <a href="#" class="aa-blog-author"><i class="fa fa-user"></i> Admin</a>
+                        <a href="#" class="aa-blog-comments"><i class="fa fa-comment-o"></i>6</a>
+                      </div> -->
+                    </div>                   
+                  </article>
+                </div>
+                <!-- start single blog -->
+                <div class="col-md-4">
+                  <article class="aa-blog-single">
+                    <figure class="aa-blog-img">
+                      <a href="#"><img src="img/project-img-3.jpg" alt="img"></a>
+                      <span class="aa-date-tag">15 April, 19</span>
+                    </figure>
+                    <div class="aa-blog-single-content">
+                      <h3><a href="#">Riverside</a></h3>
+                      <p>  </p>
+                      <!--<div class="aa-blog-single-bottom">
+                        <a href="#" class="aa-blog-author"><i class="fa fa-user"></i> Admin</a>
+                        <a href="#" class="aa-blog-comments"><i class="fa fa-comment-o"></i>6</a>
+                      </div> -->
+                    </div>                   
+                  </article>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- / Latest blog -->
+
+  <!-- Footer -->
+  <footer id="aa-footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+        <div class="aa-footer-area">
+          <div class="row">
+            <div class="col-md-3 col-sm-6 col-xs-12">
+             <div class="aa-footer-left">
+               <p><a rel="nofollow" href="http://www.novelpaints.com/">Novel Paints Ltd &nbsp;</a>   
+               &copy; 2001<script>new Date().getFullYear()>2001&&document.write(" - "+new Date().getFullYear());</script>
+               </p>
+              </div>
+            </div>
+            <div class="col-md-3 col-sm-6 col-xs-12">
+              <div class="aa-footer-middle">
+                <a href="https://www.facebook.com/novelpaintsKe/"><i class="fa fa-facebook"></i></a>
+                <a href="#"><i class="fa fa-twitter"></i></a>
+                <a href="#"><i class="fa fa-google-plus"></i></a>
+              </div>
+            </div>
+            <div class="col-md-6 col-sm-12 col-xs-12">
+              <div class="aa-footer-right">
+                <a href="index.html">Home</a>
+                <a href="https://www.facebook.com/novelpaintsKe">Support</a>
+                <a href="https://www.facebook.com/novelpaintsKe">FAQ</a>
+              </div>
+            </div>            
+          </div>
+        </div>
+      </div>
+      </div>
+    </div>
+  </footer>
+  <!-- / Footer -->
+
+ 
+  
+  <!-- jQuery library -->
+  <!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script> -->
+  <script src="js/jquery.min.js"></script>   
+  <!-- Include all compiled plugins (below), or include individual files as needed -->
+  <script src="js/bootstrap.js"></script>   
+  <!-- slick slider -->
+  <script type="text/javascript" src="js/slick.js"></script>
+  <!-- Price picker slider -->
+  <script type="text/javascript" src="js/nouislider.js"></script>
+   <!-- mixit slider -->
+  <script type="text/javascript" src="js/jquery.mixitup.js"></script>
+  <!-- Add fancyBox -->        
+  <script type="text/javascript" src="js/jquery.fancybox.pack.js"></script>
+  <!-- Custom js -->
+  <script src="js/custom.js"></script> 
+
+  </body>
 </html>
