@@ -310,7 +310,7 @@ img {
 
 /*   New preloader*/
 
-#aa-preloader-area {
+#aa-preloader-area-2 {
   background-color: #F8F8F8;
   position: fixed;
   margin: auto;
@@ -390,7 +390,7 @@ img {
 /*   New preloader*/
 
 /*Preloader*/
-#aa-preloader-area-2 {
+#aa-preloader-area {
   background-color: #F8F8F8;
   position: fixed; 
   left: 0;
@@ -2970,7 +2970,7 @@ img {
   }
 
   #aa-slider .aa-slider-area .aa-top-slider .aa-top-slider-single img {
-    height: 600px;
+    height: 350px;
   }
 
   #aa-property-header {
